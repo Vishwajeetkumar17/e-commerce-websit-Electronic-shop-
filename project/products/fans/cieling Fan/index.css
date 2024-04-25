@@ -1,0 +1,117 @@
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu {
+		display: none;
+	}
+
+	.navbar .nav-item:hover .nav-link {}
+
+	.navbar .nav-item:hover .dropdown-menu {
+		display: block;
+	}
+
+	.navbar .nav-item .dropdown-menu {
+		margin-top: 0;
+	}
+}
+
+
+
+#logo {
+    max-width: 300px;
+    /* Set maximum width */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Ensure it behaves as a block element */
+    margin: 10px auto;
+    /* Center horizontally */
+}
+
+
+
+
+.main-image {
+	display: block;
+	/* margin: 10px auto; */
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	text-align: center;
+}
+
+/* margin: top right bottom left; */
+
+
+
+#fan {
+	font-size: 36px;
+	font-weight: 400;
+	color: red;
+	margin: 30px 120px 2px 120px;
+
+}
+
+#fanp {
+	font-size: 18px;
+	margin: 30px 120px 20px 120px;
+	display: inline-block;
+
+}
+
+
+.des {
+  padding: 3px;
+  text-align: center;
+
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.title h1 {
+
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.container a{
+  text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card {
+    width: 23%;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+}

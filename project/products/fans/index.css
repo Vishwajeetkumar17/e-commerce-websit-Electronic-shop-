@@ -1,0 +1,129 @@
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu {
+		display: none;
+	}
+
+/* .navbar .nav-item:hover .nav-link {
+		
+	} */
+
+	.navbar .nav-item:hover .dropdown-menu {
+		display: block;
+	}
+
+	.navbar .nav-item .dropdown-menu {
+		margin-top: 0;
+	}
+}
+
+.before-sony {
+	margin-top: 2px;
+	margin-right: 15px;
+	margin-left: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid white;
+}
+
+.before-sony img {
+	max-width: 10%;
+	height: auto;
+	border-radius: 10px;
+}
+
+#television {
+	margin-top: 20px;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-image {
+	display: block;
+	margin: 10px auto;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	text-align: center;
+}
+
+/* margin: top right bottom left; */
+
+
+
+#fan {
+	font-size: 36px;
+	font-weight: 400;
+	color: red;
+	margin: 30px 120px 2px 120px;
+
+}
+
+#fanp {
+	font-size: 18px;
+	margin: 30px 120px 20px 120px;
+	display: inline-block;
+
+}
+
+.image-container {
+	display: flex;
+	justify-content: space-between;
+	/* Distribute items evenly */
+	flex-wrap: wrap;
+	/* Allow items to wrap */
+}
+
+.image-wrapper {
+	flex-grow: 1;
+	/* Allow each image to grow to fill the space */
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	/* Margin between each image */
+}
+
+.image-wrapper img {
+	max-width: 100px;
+	/* Set the maximum width for images */
+	max-height: 100px;
+	/* Set the maximum height for images */
+	margin-right: 10px;
+	/* Add some space between image and text */
+}
+
+.image-wrapper a {
+	text-decoration: none;
+	margin: 0;
+	/* Reset margin */
+}
+
+/* Add border between images */
+.image-wrapper:not(:last-child) {
+	border-right: 1px solid silver;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.image-wrapper {
+		flex-basis: calc(33.33% - 20px);
+		/* Adjust width for smaller screens */
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.image-wrapper {
+		flex-basis: calc(50% - 20px);
+		/* Adjust width for even smaller screens */
+	}
+}

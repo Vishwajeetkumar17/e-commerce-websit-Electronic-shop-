@@ -1,0 +1,270 @@
+body {
+    /* background-color: grey; */
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+#main {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center; /* Center align the content */
+}
+
+
+    
+.trending {
+width: 400px;
+height: 400px;
+margin: 0 20px;
+}
+
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+.carousel-cell {
+width: 100%;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+
+}
+
+.carousel-cell img{
+max-width: 100%;
+max-height: 100%;
+object-fit:cover ;
+}
+
+
+.container {
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.product-details {
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+.product-details h2 {
+    margin-top: 0;
+}
+.add-to-cart {
+    text-align: center;
+}
+.add-to-cart button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.add-to-cart button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+.container1 {
+    max-width: 90%; /* Adjust the percentage as needed */
+    margin-top: 20px; /* Adjust top margin as needed */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; Adjust margin as needed */
+}
+
+.image-container {
+    max-width: 100%; /* Ensure image does not exceed container width */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-container {
+    order: 1; /* Change the order to display content on the left */
+    margin-left: 50px;
+}
+
+#main3{
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center; /* Center align the content */
+    /* border-radius: 10px;  */
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.image-container2 {
+    max-width: 100%; /* Ensure image does not exceed container width */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    order: 2; /* Change the order to display image on the right */
+}
+
+.image-container2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#main5{
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center; /* Center align the content */
+    /* border-radius: 10px;  */
+}
+
+
+#mohit{ 
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+#main6{
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center; 
+}
+
+
+/* fjubiubibiub */
+body {
+    font-family: arial;
+}
+
+.main {
+
+    margin: 2%;
+}
+
+.card {
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+
+
+}
+
+.title {
+
+    text-align: center;
+    padding: 10px;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.des {
+    padding: 3px;
+    text-align: center;
+
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#television {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+/* guvhjbkjbklnhnkonlk*/
+
+
+
+/* For larger screens, make the layout more flexible */
+@media screen and (min-width: 768px) {
+    .container1 {
+        flex-direction: row;
+    }
+    
+    .image-container {
+        margin-right: 20px; /* Adjust margin as needed */
+        margin-bottom: 0; /* Reset bottom margin */
+    }
+
+    .container2 {
+        flex-direction: row;
+    }
+    
+    .image-container2 {
+        margin-right: 20px; /* Adjust margin as needed */
+        margin-bottom: 0; /* Reset bottom margin */
+    }
+}
